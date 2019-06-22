@@ -1,4 +1,4 @@
-
+ 
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -33,110 +33,47 @@
         </div>
         <div class="container-fluid">
             <h2 class="text-center all-tittles">Listado de proyectos</h2>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list" style="background-color:#DFF0D8; font-weight:bold;">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de proyecto</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de equipo</div>
-                        <div class="div-table-cell" style="width: 10%;">Tipo</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Solicitud</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Entrega</div>
-                        <div class="div-table-cell" style="width: 8%;">Eliminar</div>
-                        <div class="div-table-cell" style="width: 8%;">Ver Ficha</div>
-                    </div>
-                </div>
-            </div>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de proyecto</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de equipo</div>
-                        <div class="div-table-cell" style="width: 10%;">Tipo</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Solicitud</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Entrega</div>
-                        <div class="div-table-cell" style="width: 8%;">
-                            <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
-                        <div class="div-table-cell" style="width: 8%;">
-                            <button class="btn btn-info"><i class="zmdi zmdi-file-text"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de proyecto</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de equipo</div>
-                        <div class="div-table-cell" style="width: 10%;">Tipo</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Solicitud</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Entrega</div>
-                        <div class="div-table-cell" style="width: 8%;">
-                            <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
-                        <div class="div-table-cell" style="width: 8%;">
-                            <button class="btn btn-info"><i class="zmdi zmdi-file-text"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de proyecto</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de equipo</div>
-                        <div class="div-table-cell" style="width: 10%;">Tipo</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Solicitud</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Entrega</div>
-                        <div class="div-table-cell" style="width: 8%;">
-                            <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
-                        <div class="div-table-cell" style="width: 8%;">
-                            <button class="btn btn-info"><i class="zmdi zmdi-file-text"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de proyecto</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de equipo</div>
-                        <div class="div-table-cell" style="width: 10%;">Tipo</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Solicitud</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Entrega</div>
-                        <div class="div-table-cell" style="width: 8%;">
-                            <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
-                        <div class="div-table-cell" style="width: 8%;">
-                            <button class="btn btn-info"><i class="zmdi zmdi-file-text"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de proyecto</div>
-                        <div class="div-table-cell" style="width: 22%;">Nombre de equipo</div>
-                        <div class="div-table-cell" style="width: 10%;">Tipo</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Solicitud</div>
-                        <div class="div-table-cell" style="width: 10%;">F. Entrega</div>
-                        <div class="div-table-cell" style="width: 8%;">
-                            <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
-                        <div class="div-table-cell" style="width: 8%;">
-                            <button class="btn btn-info"><i class="zmdi zmdi-file-text"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <table class="table table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>
+          <a class="btn btn-danger"><i class="zmdi zmdi-delete"></i></a>
+          <a class="btn btn-info"><i class="zmdi zmdi-file-text"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>
+          <a class="btn btn-danger"><i class="zmdi zmdi-delete"></i></a>
+          <a class="btn btn-info"><i class="zmdi zmdi-file-text"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+      <td>
+          <a class="btn btn-danger"><i class="zmdi zmdi-delete"></i></a>
+          <a class="btn btn-info"><i class="zmdi zmdi-file-text"></i></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
         </div>
         <div class="modal fade" tabindex="-1" role="dialog" id="ModalHelp">
           <div class="modal-dialog modal-lg">

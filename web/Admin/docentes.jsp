@@ -16,10 +16,10 @@
             </div>
             <div class="conteiner-fluid">
                 <ul class="nav nav-tabs nav-justified"  style="font-size: 17px;">
-                    <li role="presentation"><a href="admin.jsp">Administradores</a></li>
-                    <li role="presentation"  class="active"><a href="teacher.html">Docentes</a></li>
+                   <!-- <li role="presentation"><a href="admin.jsp">Administradores</a></li>-->
+                    <li role="presentation"  class="active"><a href="docentes.jsp">Docentes</a></li>
                     <li role="presentation"><a href="estudiante.jsp">Estudiantes</a></li>
-                    <li role="presentation"><a href="personal.jsp">Personal administrativo</a></li>
+                    <!--<li role="presentation"><a href="personal.jsp">Personal administrativo</a></li>-->
                 </ul>
             </div>
             <div class="container-fluid"  style="margin: 50px 0;">

@@ -16,10 +16,10 @@
         </div>
         <div class="conteiner-fluid">
             <ul class="nav nav-tabs nav-justified"  style="font-size: 17px;">
-                <li role="presentation"><a href="admin.html">Administradores</a></li>
-                <li role="presentation"  class="active"><a href="teacher.html">Docentes</a></li>
-                <li role="presentation"><a href="student.html">Estudiantes</a></li>
-                <li role="presentation"><a href="personal.html">Personal administrativo</a></li>
+                <!--<li role="presentation"><a href="admin.html">Administradores</a></li>-->
+                <li role="presentation"  class="active"><a href="docentes.jsp">Docentes</a></li>
+                <li role="presentation"><a href="estudiante.jsp">Estudiantes</a></li>
+                <!--<li role="presentation"><a href="personal.html">Personal administrativo</a></li>-->
             </ul>
         </div>
         <div class="container-fluid"  style="margin: 50px 0;">
@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-xs-12 lead">
                     <ol class="breadcrumb">
-                        <li><a href="teacher.html">Nuevo docente</a></li>
+                        <li><a href="docentes.jsp">Nuevo docente</a></li>
                         <li class="active">listado de docentes</li>
                     </ol>
                 </div>
@@ -53,111 +53,39 @@
                 </div>
             </form>
             <h2 class="text-center all-tittles" style="clear: both; margin: 25px 0;">Listado de docentes</h2>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list" style="background-color:#DFF0D8; font-weight:bold;">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 15%;">DUI</div>
-                        <div class="div-table-cell" style="width: 15%;">Sección</div>
-                        <div class="div-table-cell" style="width: 15%;">Apellidos</div>
-                        <div class="div-table-cell" style="width: 15%;">Nombres</div>
-                        <div class="div-table-cell" style="width: 12%;">Teléfono</div>
-                        <div class="div-table-cell" style="width: 9%;">Actualizar</div>
-                        <div class="div-table-cell" style="width: 9%;">Eliminar</div>
-                    </div>
-                </div>
-                <div class="table-responsive">
-                    <div class="div-table" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list">
-                            <div class="div-table-cell" style="width: 6%;">#</div>
-                            <div class="div-table-cell" style="width: 15%;">DUI</div>
-                            <div class="div-table-cell" style="width: 15%;">Sección</div>
-                            <div class="div-table-cell" style="width: 15%;">Apellidos</div>
-                            <div class="div-table-cell" style="width: 15%;">Nombres</div>
-                            <div class="div-table-cell" style="width: 12%;">Teléfono</div>
-                            <div class="div-table-cell" style="width: 9%;">
-                                <button class="btn btn-success"><i class="zmdi zmdi-refresh"></i></button>
-                            </div>
-                            <div class="div-table-cell" style="width: 9%;">
-                                <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="table-responsive">
-                    <div class="div-table" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list">
-                            <div class="div-table-cell" style="width: 6%;">#</div>
-                            <div class="div-table-cell" style="width: 15%;">DUI</div>
-                            <div class="div-table-cell" style="width: 15%;">Sección</div>
-                            <div class="div-table-cell" style="width: 15%;">Apellidos</div>
-                            <div class="div-table-cell" style="width: 15%;">Nombres</div>
-                            <div class="div-table-cell" style="width: 12%;">Teléfono</div>
-                            <div class="div-table-cell" style="width: 9%;">
-                                <button class="btn btn-success"><i class="zmdi zmdi-refresh"></i></button>
-                            </div>
-                            <div class="div-table-cell" style="width: 9%;">
-                                <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="table-responsive">
-                    <div class="div-table" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list">
-                            <div class="div-table-cell" style="width: 6%;">#</div>
-                            <div class="div-table-cell" style="width: 15%;">DUI</div>
-                            <div class="div-table-cell" style="width: 15%;">Sección</div>
-                            <div class="div-table-cell" style="width: 15%;">Apellidos</div>
-                            <div class="div-table-cell" style="width: 15%;">Nombres</div>
-                            <div class="div-table-cell" style="width: 12%;">Teléfono</div>
-                            <div class="div-table-cell" style="width: 9%;">
-                                <button class="btn btn-success"><i class="zmdi zmdi-refresh"></i></button>
-                            </div>
-                            <div class="div-table-cell" style="width: 9%;">
-                                <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="table-responsive">
-                    <div class="div-table" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list">
-                            <div class="div-table-cell" style="width: 6%;">#</div>
-                            <div class="div-table-cell" style="width: 15%;">DUI</div>
-                            <div class="div-table-cell" style="width: 15%;">Sección</div>
-                            <div class="div-table-cell" style="width: 15%;">Apellidos</div>
-                            <div class="div-table-cell" style="width: 15%;">Nombres</div>
-                            <div class="div-table-cell" style="width: 12%;">Teléfono</div>
-                            <div class="div-table-cell" style="width: 9%;">
-                                <button class="btn btn-success"><i class="zmdi zmdi-refresh"></i></button>
-                            </div>
-                            <div class="div-table-cell" style="width: 9%;">
-                                <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="table-responsive">
-                    <div class="div-table" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list">
-                            <div class="div-table-cell" style="width: 6%;">#</div>
-                            <div class="div-table-cell" style="width: 15%;">DUI</div>
-                            <div class="div-table-cell" style="width: 15%;">Sección</div>
-                            <div class="div-table-cell" style="width: 15%;">Apellidos</div>
-                            <div class="div-table-cell" style="width: 15%;">Nombres</div>
-                            <div class="div-table-cell" style="width: 12%;">Teléfono</div>
-                            <div class="div-table-cell" style="width: 9%;">
-                                <button class="btn btn-success"><i class="zmdi zmdi-refresh"></i></button>
-                            </div>
-                            <div class="div-table-cell" style="width: 9%;">
-                                <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              <table class="table table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">Codigo</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellido</th>
+      <th scope="col">DNI</th>
+      <th scope="col">Correo</th>
+      <th scope="col">Celular</th>
+      <th scope="col">Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
             </div>
-        </div>
         <div class="modal fade" tabindex="-1" role="dialog" id="ModalHelp">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">

@@ -16,10 +16,10 @@
         </div>
         <div class="conteiner-fluid">
             <ul class="nav nav-tabs nav-justified"  style="font-size: 17px;">
-                <li role="presentation"><a href="admin.html">Administradores</a></li>
-                <li role="presentation"><a href="teacher.html">Docentes</a></li>
-                <li role="presentation" class="active"><a href="student.html">Estudiantes</a></li>
-                <li role="presentation"><a href="personal.html">Personal administrativo</a></li>
+               <!-- <li role="presentation"><a href="admin.html">Administradores</a></li> -->
+                <li role="presentation"><a href="docentes.jsp">Docentes</a></li>
+                <li role="presentation" class="active"><a href="estudiante.jsp">Estudiantes</a></li>
+                <!--<li role="presentation"><a href="personal.html">Personal administrativo</a></li>-->
             </ul>
         </div>
         <div class="container-fluid"  style="margin: 50px 0;">
@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-xs-12 lead">
                     <ol class="breadcrumb">
-                        <li><a href="student.html">Nuevo estudiante</a></li>
+                        <li><a href="estudiante.jsp">Nuevo estudiante</a></li>
                         <li class="active">Listado de estudiantes</li>
                     </ol>
                 </div>
@@ -62,104 +62,71 @@
         </div>
         <div class="container-fluid">
             <h2 class="text-center all-tittles">listado de estudiantes</h2>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list" style="background-color:#DFF0D8; font-weight:bold;">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 18%;">NIE</div>
-                        <div class="div-table-cell" style="width: 18%;">Apellidos</div>
-                        <div class="div-table-cell" style="width: 18%;">Nombres</div>
-                        <div class="div-table-cell" style="width: 18%;">Sección</div>
-                        <div class="div-table-cell" style="width: 9%;">Actualizar</div>
-                        <div class="div-table-cell" style="width: 9%;">Eliminar</div>
-                    </div>
-                </div>
-            </div>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 18%;">NIE</div>
-                        <div class="div-table-cell" style="width: 18%;">Apellidos</div>
-                        <div class="div-table-cell" style="width: 18%;">Nombres</div>
-                        <div class="div-table-cell" style="width: 18%;">Sección</div>
-                        <div class="div-table-cell" style="width: 9%;">
-                            <button class="btn btn-success"><i class="zmdi zmdi-refresh"></i></button>
-                        </div>
-                        <div class="div-table-cell" style="width: 9%;">
-                            <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 18%;">NIE</div>
-                        <div class="div-table-cell" style="width: 18%;">Apellidos</div>
-                        <div class="div-table-cell" style="width: 18%;">Nombres</div>
-                        <div class="div-table-cell" style="width: 18%;">Sección</div>
-                        <div class="div-table-cell" style="width: 9%;">
-                            <button class="btn btn-success"><i class="zmdi zmdi-refresh"></i></button>
-                        </div>
-                        <div class="div-table-cell" style="width: 9%;">
-                            <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 18%;">NIE</div>
-                        <div class="div-table-cell" style="width: 18%;">Apellidos</div>
-                        <div class="div-table-cell" style="width: 18%;">Nombres</div>
-                        <div class="div-table-cell" style="width: 18%;">Sección</div>
-                        <div class="div-table-cell" style="width: 9%;">
-                            <button class="btn btn-success"><i class="zmdi zmdi-refresh"></i></button>
-                        </div>
-                        <div class="div-table-cell" style="width: 9%;">
-                            <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 18%;">NIE</div>
-                        <div class="div-table-cell" style="width: 18%;">Apellidos</div>
-                        <div class="div-table-cell" style="width: 18%;">Nombres</div>
-                        <div class="div-table-cell" style="width: 18%;">Sección</div>
-                        <div class="div-table-cell" style="width: 9%;">
-                            <button class="btn btn-success"><i class="zmdi zmdi-refresh"></i></button>
-                        </div>
-                        <div class="div-table-cell" style="width: 9%;">
-                            <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">#</div>
-                        <div class="div-table-cell" style="width: 18%;">NIE</div>
-                        <div class="div-table-cell" style="width: 18%;">Apellidos</div>
-                        <div class="div-table-cell" style="width: 18%;">Nombres</div>
-                        <div class="div-table-cell" style="width: 18%;">Sección</div>
-                        <div class="div-table-cell" style="width: 9%;">
-                            <button class="btn btn-success"><i class="zmdi zmdi-refresh"></i></button>
-                        </div>
-                        <div class="div-table-cell" style="width: 9%;">
-                            <button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <table class="table table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">Codigo</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellido P</th>
+      <th scope="col">Apellido M</th>
+      <th scope="col">Dni</th>
+      <th scope="col">Codigo</th>
+      <th scope="col">Celular</th>
+      <th scope="col">Correo Electronico</th>
+      <th scope="col">Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Nombre</td>
+      <td>Apellido P</td>
+      <td>Apellido M</td>
+      <td>Dni</td>
+      <td>Codigo</td>
+      <td>Celular</td>
+      <td>Correo Electronico</td>
+      <td>Estado</td>
+      <td>
+          <a class="btn btn-success"><i class=" zmdi zmdi-refresh"></i></a> 
+          <a class="btn btn-danger"><i class="zmdi zmdi-delete"></i></a> 
+          
+      </td>
+    </tr>
+       <tr>
+      <th scope="row">1</th>
+      <td>Nombre</td>
+      <td>Apellido P</td>
+      <td>Apellido M</td>
+      <td>Dni</td>
+      <td>Codigo</td>
+      <td>Celular</td>
+      <td>Correo Electronico</td>
+      <td>Estado</td>
+      <td>
+          <a class="btn btn-success"><i class=" zmdi zmdi-refresh"></i></a> 
+          <a class="btn btn-danger"><i class="zmdi zmdi-delete"></i></a> 
+          
+      </td>
+    </tr>
+       <tr>
+      <th scope="row">1</th>
+      <td>Nombre</td>
+      <td>Apellido P</td>
+      <td>Apellido M</td>
+      <td>Dni</td>
+      <td>Codigo</td>
+      <td>Celular</td>
+      <td>Correo Electronico</td>
+      <td>Estado</td>
+      <td>
+          <a class="btn btn-success"><i class=" zmdi zmdi-refresh"></i></a> 
+          <a class="btn btn-danger"><i class="zmdi zmdi-delete"></i></a> 
+          
+      </td>
+    </tr>
+  </tbody>
+</table>
         </div>
         <div class="modal fade" tabindex="-1" role="dialog" id="ModalHelp">
           <div class="modal-dialog modal-lg">
